@@ -1,0 +1,64 @@
+body {
+background: #808080;
+color: #fff;
+
+}
+
+.navbar {
+    border-bottom: #ff8000 3px solid;
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+.bg-default {
+    background: #cacac0;
+}
+
+.bg-default1 {
+    background: #ff8000;
+}
+
+.btn-default {
+    background: #ff8000;
+    color: #fff;
+
+}
+
+
+#home-section {
+ background: url(../img/kitchen.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+    
+}
+
+#services-section .fas, #share-section .fas {
+    background: orange;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-section .fas {
+    padding-top: 150px;
+    background: orange;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
